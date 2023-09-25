@@ -5,7 +5,9 @@ import correo
 
 
 def main():
-    
+    """
+    Codigo principal que inicia todo el programa
+    """
     print("Bienvenido al programa.")
     urls = []
     valor = " "
