@@ -10,6 +10,8 @@ def enviar_correo(archivos, destinatario, usuario):
     """
     Envia las imagenes por correo electronico
     @param archivos Los archivos que se van a enviar por correo
+    @param destinatario El correo al cual se van a enviar las imagenes
+    @param usuario El nombre del usuario
     @returns
     """
 
