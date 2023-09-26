@@ -6,9 +6,10 @@ import os
 def request(URL, nombre):
     """
     descarga las imagenes
-    @param URL La imagen que va a descargar
-    @param nombre nombre que les va a colocar a las imagenes
-    @returns
+    arguments:
+        (URL)str La imagen que va a descargar
+        (nombre)str nombre que les va a colocar a las imagenes
+    returns:
     """
     respuesta = requests.get(URL)
 
@@ -28,8 +29,10 @@ def request(URL, nombre):
 def descargar_imagenes(urls):
     """
     Descarga las imagenes en hilos
-    @param urls Las url de las imagenes que va a descargar
-    @returns archivo_imagen Devuelve todos los nombres de las imagenes
+    Arguments:
+        (urls)str Las url de las imagenes que va a descargar
+    returns:
+        (archivo_imagen)str Devuelve todos los nombres de las imagenes
     """
     archivo_imagen = []
 
