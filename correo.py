@@ -19,7 +19,7 @@ def enviar_correo(archivos, destinatario, usuario):
     context = ssl.create_default_context()
     mensaje = MIMEMultipart("alternative")
     mensaje["Subject"] = "Saludos desde Python"
-    mensaje["From"] = "Mario Montero Badilla <estebanmonba@gmail.com >"
+    mensaje["From"] = "Mario Montero Badilla <estebanmonba@gmail.com>"
     mensaje["To"] = destinatario #--------------------------------------Ingresa el correo del usuario
 
     ruta_plantilla = "plantilla_saludo.html" #--------------------------Localiza la plantilla
